@@ -1,0 +1,107 @@
+@font-face {
+    font-family: "raleway";
+    src:
+        url('Raleway-VariableFont_wght.ttf') format('truetype'),
+        url('Raleway-VariableFont_wght.ttf') format('eot'),
+        url('Raleway-VariableFont_wght.ttf') format('woff'),
+        url('Raleway-VariableFont_wght.ttf') format('svg');
+
+}
+
+*
+{
+    font-family: raleway, Arial,Verdana, Geneva, Tahoma, sans-serif
+    
+}
+
+#bloc_page{
+    max-width: 2100px;
+    margin: auto;
+}
+header{
+    width: 2100px;
+    border-style: solid;
+    display: flex;
+}
+header img{
+    width: 5em;
+}
+nav ul {
+    text-decoration: none;
+    border-style: solid;
+    width: 400px;
+    list-style-type: none;
+    justify-content: space-between;
+    justify-content: space-around;
+    display: flex;
+}
+nav li{
+    font-weight: bold;
+    
+
+}
+a:visited{
+    text-decoration: none;
+    color:#0065FC;
+    
+} 
+#filtres i{
+    color:#0065FC;
+    background-color:#DEEBFF ;
+    
+} 
+#hebergement{
+    background-color:#DEEBFF ;
+    width: 70%;
+    display: flex;
+    border-radius: 50px 50px 50px 50px
+
+}   
+#hebergement img{
+    width: 10em;
+    border-radius: 50px 50px 50px 50px;
+    height: 100px;
+    flex-wrap:nowrap;
+} 
+
+#container{
+    border-style: solid;
+
+
+}
+#container-primary{
+    border-style: solid;
+    border-color: tomato;
+}
+i{
+    color: #0065FC;;
+}
+#container-secondary{
+    border-style: solid;
+    border-color: violet;
+}
+footer{
+    width: 99%;
+    background-color: #F2F2F2;
+}
+footer ul{
+    width: 70%;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding-left: 10px;
+    
+    
+}
+
+
+
+    
+    
+    
+    
+
+
+   
+
