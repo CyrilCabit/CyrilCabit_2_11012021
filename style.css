@@ -10,90 +10,75 @@
 
 *
 {
-    font-family: raleway, Arial,Verdana, Geneva, Tahoma, sans-serif
-    
-}
-
-#bloc_page{
-    max-width: 2100px;
-    margin: auto;
+    font-family: raleway, Arial,Verdana, Geneva, Tahoma, sans-serif 
 }
 header{
-    width: 2100px;
-    border-style: solid;
+    width: 100%;
     display: flex;
-}
+    justify-content: space-between;
+    margin: 25px 0px 0px 0px;
+    }
 header img{
-    width: 5em;
+    width: 100px;
 }
-nav ul {
-    text-decoration: none;
-    border-style: solid;
-    width: 400px;
+
+header ul{
     list-style-type: none;
-    justify-content: space-between;
-    justify-content: space-around;
+    width:500px;
     display: flex;
+    justify-content: space-around;  
 }
-nav li{
+a:link {
+
+    text-decoration: none;        
+}
+.item1{
+    color: #0065FC;
+    border-top: solid 2px;
+    padding: 30px 20px 0px 20px;
+     
+}
+.item2{
+    color: black;
+}
+    
+.item3{
     font-weight: bold;
-    
-
+    color: #0065FC;
 }
-a:visited{
-    text-decoration: none;
-    color:#0065FC;
+form{
+   
+    display:inline-flex;
+    font-weight: bold;
+}
+form i{
+       
+    color: brown;
+    background-color:blue ;    
     
-} 
+}
+
+.button {
+    background-color: #0065FC;
+    border-radius: 0px 6px 6px 0px;
+    color: #FFFFFF;    
+}
+#filtres{
+    display: flex;
+    justify-content: space-around;
+    width: 75%;
+    height: 100%;
+}
 #filtres i{
-    color:#0065FC;
     background-color:#DEEBFF ;
-    
-} 
-#hebergement{
-    background-color:#DEEBFF ;
-    width: 70%;
-    display: flex;
-    border-radius: 50px 50px 50px 50px
-
-}   
-#hebergement img{
-    width: 10em;
-    border-radius: 50px 50px 50px 50px;
-    height: 100px;
-    flex-wrap:nowrap;
-} 
-
-#container{
-    border-style: solid;
-
-
-}
-#container-primary{
-    border-style: solid;
-    border-color: tomato;
-}
-i{
-    color: #0065FC;;
-}
-#container-secondary{
-    border-style: solid;
-    border-color: violet;
-}
-footer{
-    width: 99%;
-    background-color: #F2F2F2;
-}
-footer ul{
-    width: 70%;
-    list-style-type: none;
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-    padding-left: 10px;
-    
+    color: #0065FC;
+    border-radius: 50px;
     
 }
+
+
+
+
 
 
 
