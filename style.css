@@ -12,6 +12,13 @@
 {
     font-family: raleway, Arial,Verdana, Geneva, Tahoma, sans-serif 
 }
+body{
+    padding: 0px;
+    margin: 0px;
+}
+img{
+    width: 15%;
+}
 header{
     width: 100%;
     display: flex;
@@ -53,21 +60,25 @@ form{
 }
 form i{
        
-    color: brown;
-    background-color:blue ;    
+    border-color: #DEEBFF;
+    border-style: solid;
+    padding-left: 21px;
+    font-weight: bold;    
     
 }
 
 .button {
     background-color: #0065FC;
-    border-radius: 0px 6px 6px 0px;
-    color: #FFFFFF;    
+    border-radius: 0px 11px 11px 0px;
+    color: #FFFFFF;
+    border-color: #0065fc;
+    border-style: none;    
 }
 #filtres{
     display: flex;
     justify-content: space-around;
     width: 75%;
-    height: 100%;
+    
 }
 #filtres i{
     background-color:#DEEBFF ;
