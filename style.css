@@ -91,8 +91,11 @@ form i{
     width: 75%;
     font-weight: bold;
     margin-top: 27px;
-    margin-bottom: 15px;
+    margin-bottom: 30px;
     margin-left: -30px;
+}
+#filtres p{
+    margin-right: -35px;
 }
 #filtres i{
     background-color:#DEEBFF ;
@@ -118,7 +121,7 @@ padding-top: 15px;
 padding-left: 27px;
 padding-right: 20px;
 }
-}
+
 #info{
     display: flex;
     padding-left: 20px;
@@ -127,8 +130,8 @@ padding-right: 20px;
     color:#0066FC;
 }
 #info p{
-    margin-top: -18px;
-    padding-left: 25px;
+    margin-top: -1px;
+    padding-left: 15px;
 }
 
 
