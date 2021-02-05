@@ -33,6 +33,7 @@ header
     display: flex;
     justify-content: space-between;
     margin: 25px 0px 0px 0px;
+    
 }
 
 header img
@@ -74,6 +75,7 @@ form
    
     display:inline-flex;
     font-weight: bold;
+    
 }
 form i
 {
@@ -113,7 +115,7 @@ form i
     font-weight: bold;
     margin-top: 27px;
     margin-bottom: 30px;
-    margin-left: -30px;
+    
 }
 
 #filtres i
@@ -148,6 +150,7 @@ padding-right: 20px;
 #info
 {
     display: flex;
+    margin-left: 10px;
   
 }
 
@@ -172,12 +175,20 @@ padding-right: 20px;
 #section2
 {
     display: flex;
-    justify-content: space-between; 
+  
+}
+h2{
+    padding-left: 10px;
+
 }
 #hebergement
 {
     background-color: #F2F2F2;
     border-radius: 20px 20px 20px 20px;
+    width: 120%;
+    padding: 30px 20px 30px 30px;
+    margin: 10px;
+    
 }
 
 #card-container
@@ -186,22 +197,28 @@ padding-right: 20px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-} 
+}
+figcaption{
+padding-left: 10px;    
+}
+
     
 #populaires
 {
     background-color: #F2F2F2;
     border-radius: 20px 20px 20px 20px;
+    margin: 10px;
+    padding: 30px 20px 30px 30px;
 }
 .card
 {
     border-radius: 20px 20px 20px 20px;
-    width: 25%;
-    padding: 7px;   
+    width: 30%;  
     margin: 0px;
     background-color: #FFFFFF;
-    border: solid;
-    margin-bottom: 70px;
+    margin-bottom: 25px;
+    box-shadow: 5px 5px 10px #E3E3E3;
+    padding:5px
 }
 #hebergement img{
     width: 100%;
@@ -211,11 +228,7 @@ padding-right: 20px;
     object-fit: cover;
 
 }
-#herbergement figcaption
-{
-    padding: 3px;
-    margin-top: -35px; 
-}
+
 .fa-star{
     color: #0065FC;
 }
@@ -223,8 +236,26 @@ padding-right: 20px;
 {
     color:#F2F2F2;
 }  
+#populaires img{
+    width: 42%;
+    border-radius: 20px 0px 0px 20px;
+    object-fit: cover;
+    height:170px
+}
+.card2
+{
+    display: flex;
+    border-radius: 20px 20px 20px 20px;
+    background-color: #FFFFFF;
+    box-shadow: 10px 10px 16px #E3E3E3;
+    margin: 10px 10px 30px ;
+    padding: 5px;
+    padding-right: 42px;
+}
 
-    
+  
+
+
     
     
 
