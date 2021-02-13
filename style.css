@@ -290,15 +290,15 @@ padding-left: 20px;
 .card3 img{
     border-radius: 20px 20px 0px 0px;
     object-fit: cover;
-    width: 430px;
-    height: 545px;
+    width: 335px;
+    height: 420px;
 
 }
 .column img{
     border-radius: 20px 20px 0px 0px;
     object-fit: cover;
-    width: 490px;
-    height: 230px;
+    width: 335px;
+    height: 150px;
 } 
 
 
