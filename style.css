@@ -39,12 +39,12 @@ header
 header img
 {
     width: 100px;
+    padding-left: 10px;
 }
 
 header ul
-{
+{   
     list-style-type: none;
-    width:500px;
     display: flex;
     justify-content: space-around;  
 }
@@ -63,13 +63,20 @@ a:link
 .item2
 {
     color: black;
+    padding: 30px 20px 0px 20px;
 }
     
 .item3
 {
     font-weight: bold;
     color: #0065FC;
+    padding: 30px 20px 0px 20px;
 }
+
+#section1{
+    padding-left: 10px;
+}
+
 form
 {
    
@@ -110,11 +117,12 @@ form i
 #filtres
 {
     display: flex;
-    justify-content: space-around;
-    width: 75%;
     font-weight: bold;
     margin-top: 27px;
     margin-bottom: 30px;
+    width: 75%;
+    justify-content: space-between;
+    
     
 }
 
@@ -126,7 +134,7 @@ form i
     padding: 17px;
     position:relative;
     left:20px;
-    width:19px;
+    width:17px;
     text-align: center;
 }
 #filtres div
@@ -150,7 +158,7 @@ padding-right: 20px;
 #info
 {
     display: flex;
-    margin-left: 10px;
+    
   
 }
 
@@ -211,10 +219,7 @@ padding-left: 20px;
     margin: 10px;
     padding: 30px 30px 30px 30px;
 }
-#populaires h2{
-    display:flex;
-    justify-content: space-between;
-}
+
 .card
 {
     border-radius: 20px 20px 20px 20px;
@@ -233,6 +238,10 @@ padding-left: 20px;
     object-fit: cover;
 
 }
+.plus{
+    font-weight: bold;
+}
+
 
 .fa-star{
     color: #0065FC;
@@ -246,6 +255,11 @@ padding-left: 20px;
     border-radius: 20px 0px 0px 20px;
     object-fit: cover;
     height:185px
+}
+
+#populaires h2{
+    display:flex;
+    justify-content: space-between;
 }
 .card2
 {
@@ -270,7 +284,9 @@ padding-left: 20px;
 #card-container3{
     display: flex;
     padding-bottom: 85px;
-    justify-content: center
+    justify-content: center;
+    width:100%;
+    height:100%;
 }
 
 
@@ -290,15 +306,15 @@ padding-left: 20px;
 .card3 img{
     border-radius: 20px 20px 0px 0px;
     object-fit: cover;
-    width: 335px;
-    height: 420px;
+    width: 340px;
+    height: 455px;
 
 }
 .column img{
     border-radius: 20px 20px 0px 0px;
     object-fit: cover;
-    width: 335px;
-    height: 150px;
+    width: 340px;
+    height: 170px;
 } 
 
 
@@ -310,12 +326,154 @@ footer ul{
     justify-content: space-between;
     list-style-type: none;
     width: 75%;
+}
+
+
+
+/*RESPONSIVE */
+
+
+
+@media all and (max-device-width:480px)
+{
+#hebergement {
+    background-color:transparent
     
+}
+.item1
+{
+    color: #0065FC;
+    border-top: none;
+    padding: 15px 60px 15px 60px;
+    border-bottom: solid 2px #0065FC;
+}
+.item2
+{   
+    
+    color: black;
+    padding: 9px 70px 21px 70px;
+    border-bottom: solid 2px #E3E3E3;
+}
+    
+.item3
+{
+    font-weight: bold;
+    color: #0065FC;
+    padding: 30px 20px 0px 20px;
+}
+header ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    flex-flow: wrap-reverse;
+}
+header li:last-child
+{
+    width: 100%;
+    text-align-last: right;
+}
+#section1 h1
+{
+    width: 75%;
+}
+.button 
+{
+    background-color: #0065FC;
+    border-radius: 16px 16px 16px 16px;
+    color: #FFFFFF;
+    border-color: #0065fc;
+    border-style: none;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: medium;    
+}
+#filtres p:first-child
+{
+    width: 100%;
+}
+#filtres 
+{
+    display: flex;
+    font-weight: bold;
+    margin-top: 27px;
+    margin-bottom: 30px;
+    flex-wrap: wrap;
+    width: 85%;
+}
+#section2
+{
+    display: flex;
+    flex-flow: column-reverse;
+  
+}
+#card-container
+{
+    border-radius: 20px 20px 20px 20px;
+    flex-direction: column;
+    display: flex;
+}
+#card-container3 
+{
+    
+    flex-direction: column;
+    display: flex;
+}
+footer ul {
+    display: flex;
+    list-style-type: none;
+    flex-direction: column;
+}
+#info
+{
+    display: flex;
+    width: 75%;
+  
+}
+
+
+
+#populaires 
+{
+    background-color: #F2F2F2;
+    border-radius: 20px 20px 20px 20px;
+    margin: 10px;
+    padding: 30px 30px 30px 30px;
+    width: 100%;
+}
+.card2 
+{
+        display: flex;
+        border-radius: 20px 20px 20px 20px;
+        background-color: #FFFFFF;
+        box-shadow: 10px 10px 16px #e3e3e3;
+        margin: 10px 10px 30px;
+        padding: 5px;
+        
+}
+
+#card-container3 img
+{
+        width:100%
+}
 
 }
 
-  
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+ 
 
     
     
