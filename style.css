@@ -336,10 +336,9 @@ footer ul{
 
 @media all and (max-device-width:480px)
 {
-#hebergement {
-    background-color:transparent
+
     
-}
+
 .item1
 {
     color: #0065FC;
@@ -361,7 +360,9 @@ footer ul{
     color: #0065FC;
     padding: 30px 20px 0px 20px;
 }
-header ul {
+
+header ul 
+{
     list-style-type: none;
     display: flex;
     justify-content: space-around;
@@ -400,6 +401,23 @@ header li:last-child
     flex-wrap: wrap;
     width: 85%;
 }
+#hebergement {
+    background-color:transparent;
+    border-radius: 20px 20px 20px 20px;
+    width: 100%;
+    padding: 30px 20px 30px 30px;
+    margin: 10px;
+}
+.card 
+{
+    border-radius: 20px 20px 20px 20px;
+    margin: 0px;
+    background-color: #FFFFFF;
+    margin-bottom: 25px;
+    box-shadow: 5px 5px 10px #e3e3e3;
+    width: 100%;
+}
+
 #section2
 {
     display: flex;
@@ -456,7 +474,6 @@ footer ul {
         width:100%
 }
 
-}
 
 
 
@@ -472,7 +489,8 @@ footer ul {
 
 
 
-}
+
+
  
 
     
