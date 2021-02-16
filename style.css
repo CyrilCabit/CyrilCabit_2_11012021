@@ -50,8 +50,17 @@ header ul
 }
 a:link 
 {
-
+    
     text-decoration: none;        
+}
+a:visited
+{
+    color:black;
+}
+a:hover
+{
+background-color: #DEEBFF;
+font-size: 20px;
 }
 .item1
 {
@@ -495,7 +504,3 @@ footer ul {
 
     
     
-
-
-   
-
