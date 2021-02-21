@@ -360,7 +360,7 @@ figcaption p
 {
     border-radius: 20px 20px 0px 0px;
     width:100%;
-    height: 515px;
+    height: 375px;
 
 }
 
@@ -368,7 +368,7 @@ figcaption p
 {
     border-radius: 20px 20px 0px 0px;
     width:100%;
-    height: 215px;
+    height: 145px;
 
    
 } 
@@ -398,8 +398,25 @@ footer ul{
 
 @media all and (max-device-width:480px)
 {
+#bloc_page
+{
+    margin: 0
 
-    
+}
+                /*HEADER */
+header
+{
+    display: block;
+    margin:0;    
+}
+  
+header ul 
+{
+    list-style-type: none;
+    justify-content: space-around;
+    display: flex;
+    width: 100%;
+}
 
 .item1
 {
@@ -412,7 +429,7 @@ footer ul{
 {   
     
     color: black;
-    padding: 9px 70px 21px 70px;
+    padding: 9px 70px 15px 70px;
     border-bottom: solid 2px #E3E3E3;
 }
     
@@ -423,18 +440,8 @@ footer ul{
     padding: 30px 20px 0px 20px;
 }
 
-header ul 
-{
-    list-style-type: none;
-    display: flex;
-    justify-content: space-around;
-    flex-flow: wrap-reverse;
-}
-header li:last-child
-{
-    width: 100%;
-    text-align-last: right;
-}
+            /*SECTION 1 */
+
 #section1 h1
 {
     width: 75%;
@@ -517,6 +524,7 @@ form
     width: 100%;
 }
 
+            /*SECTION 2 */
 #section2
 {
     display: flex;
@@ -535,11 +543,7 @@ form
     flex-direction: column;
     display: flex;
 }
-footer ul {
-    display: flex;
-    list-style-type: none;
-    flex-direction: column;
-}
+
 #info
 {
     display: flex;
@@ -568,8 +572,53 @@ footer ul {
         
 }
 
-#card-container3 img
+            /*SECTION 3 */
+#section3 .card3 
 {
-        width:100%
+    border-radius: 20px 20px 20px 20px;
+    box-shadow: 10px 10px 16px #e3e3e3;
+    width: 62%;
+    height: 155px;
+    margin: 0px 0px 20px 0px;
+    
+}  
+
+
+#card-container3 
+{
+    
+    flex-direction: column;
+    display: flex;
+    width: 100%;
+    padding:0;
+}
+#card-container3 img 
+{
+    
+    height: 100px;
+}
+.column
+{
+    width:100%;
+    margin: 0;
+
+}
+.column figure 
+{
+    border-radius: 20px 20px 20px 20px;
+    box-shadow: 10px 10px 16px #e3e3e3;
+    margin: 0px 0px 20px 0px;
+    height: 150px;
+    width: 62%;
+}
+.column img
+{
+    height: 125px;
+}
+footer ul {
+    display: flex;
+    list-style-type: none;
+    flex-direction: column;
+    padding: 20px 0px 20px 20px;
 }
 }
