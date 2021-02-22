@@ -16,7 +16,7 @@
 
 body
 {
-    width: 100%;
+    width: 2560px;
     padding: 0px;
     margin: 0px;
 }
@@ -396,11 +396,12 @@ footer ul{
 
 
 
-@media all and (max-device-width:480px)
+@media all and (max-device-width:600px)
 {
 #bloc_page
 {
-    margin: 0
+    margin: 0;
+    width: 480px;
 
 }
                 /*HEADER */
@@ -416,6 +417,7 @@ header ul
     justify-content: space-around;
     display: flex;
     width: 100%;
+    padding: 0;
 }
 
 .item1
@@ -445,6 +447,7 @@ header ul
 #section1 h1
 {
     width: 75%;
+    text-align: center;
 }
 form
 {
@@ -455,7 +458,15 @@ form
     border: solid 2px;
     border-color: #F2F2F2;
     width: 90%;
-    height: 45px;
+    height: 50px;
+}
+.fa-map-marker-alt
+{
+    padding: 17px;
+    border-radius: 16px 0px 0px 16px;
+    background-color: #F2F2F2;
+    text-align: center;
+    width: 5%;
 }
 .bouton1
 {
@@ -481,6 +492,7 @@ form
     padding-right: 15px;
     font-size: medium; 
     display: block;
+    width: 12%;
         
 }
 .barre
@@ -498,21 +510,45 @@ form
 {
     width: 100%;
 }
+
 #filtres 
 {
     display: flex;
     font-weight: bold;
     margin-top: 27px;
     margin-bottom: 30px;
-    flex-wrap: wrap;
     width: 85%;
+    flex-wrap: wrap;
+    justify-content: left;
+
 }
+.filter
+{
+    display: flex;
+    border: 2px #F2F2F2 solid;
+    border-radius: 30px 30px 30px 30px;
+    padding-right: 17px;
+    margin: 5px;
+}
+#info i 
+{
+    color: #0066FC;
+    border: solid thin;
+    border-radius: 60px 60px 60px 60px;
+    padding: 6px 6px 6px 6px;
+    width: 20px;
+    border-color: #F2F2F2;
+    height: 16px;
+    text-align: center;
+}
+            /*SECTION 2 */
 #hebergement {
     background-color:transparent;
     border-radius: 20px 20px 20px 20px;
-    width: 100%;
-    padding: 30px 20px 30px 30px;
-    margin: 10px;
+    width: 90%;
+    padding: 0;
+    margin: 20px;
+    
 }
 .card 
 {
@@ -524,11 +560,11 @@ form
     width: 100%;
 }
 
-            /*SECTION 2 */
 #section2
 {
     display: flex;
     flex-flow: column-reverse;
+    padding: 0;
   
 }
 #card-container
@@ -537,12 +573,7 @@ form
     flex-direction: column;
     display: flex;
 }
-#card-container3 
-{
-    
-    flex-direction: column;
-    display: flex;
-}
+
 
 #info
 {
@@ -551,14 +582,12 @@ form
   
 }
 
-
-
 #populaires 
 {
     background-color: #F2F2F2;
-    border-radius: 20px 20px 20px 20px;
-    margin: 10px;
-    padding: 30px 30px 30px 30px;
+    border-radius: 0;
+    margin: 0;
+    padding: 0;
     width: 100%;
 }
 .card2 
@@ -577,8 +606,8 @@ form
 {
     border-radius: 20px 20px 20px 20px;
     box-shadow: 10px 10px 16px #e3e3e3;
-    width: 62%;
-    height: 155px;
+    width: 100%;
+    height: 200px;
     margin: 0px 0px 20px 0px;
     
 }  
@@ -589,13 +618,14 @@ form
     
     flex-direction: column;
     display: flex;
-    width: 100%;
+    width: 92%;
     padding:0;
+    margin: 20px;
 }
 #card-container3 img 
 {
     
-    height: 100px;
+    height: 140px;
 }
 .column
 {
@@ -608,14 +638,19 @@ form
     border-radius: 20px 20px 20px 20px;
     box-shadow: 10px 10px 16px #e3e3e3;
     margin: 0px 0px 20px 0px;
-    height: 150px;
-    width: 62%;
+    height: 200px;
+    width: 100%;
 }
 .column img
 {
     height: 125px;
 }
-footer ul {
+footer{
+width: auto;
+}
+
+footer ul 
+{
     display: flex;
     list-style-type: none;
     flex-direction: column;
