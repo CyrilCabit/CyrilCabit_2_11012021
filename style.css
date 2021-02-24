@@ -47,7 +47,7 @@ header img
 }
 nav
 {
-    width: 30%;
+    width: 40%;
 }
 header ul
 {   
@@ -99,7 +99,7 @@ form
     border-radius: 18px 18px 18px 18px;
     border: solid 2px;
     border-color: #F2F2F2;
-    width: 33%;
+    width: 40%;
     height: 45px;
     
 }
@@ -156,7 +156,7 @@ form
     font-weight: bold;
     margin-top: 27px;
     margin-bottom: 30px;
-    width: 70%;
+    width: 78%;
     justify-content: space-around;
     color: black;
     
@@ -227,18 +227,15 @@ form
 }
 h2{
     padding-left: 10px;
-    padding-right: 15px;
 
 }
 #hebergement
 {
     background-color: #F2F2F2;
     border-radius: 20px 20px 20px 20px;
-    width: 120%;
-    padding: 30px 20px 30px 30px;
+    padding: 10px 10px 20px 20px;
     margin: 10px;
-    width: 70%;
-    height: 100%;
+    width: 79%;
 }
 
 #card-container
@@ -251,22 +248,25 @@ h2{
 figcaption
 {
     display: flex;
-    flex-direction:column;
+    flex-direction: column;
     margin: 0px;
-    padding: 15px;  
+    padding: 4px;  
     height: 65px; 
+    font-size: 13px;
 }
 figcaption h3
 {
     padding: 0px;
     margin: 0;
-    padding-bottom: 5px;   
+    padding-bottom: 5px;
+    padding-right: 10px;   
 }
 figcaption p
 {
     padding: 0px;
     margin: 0;
-    padding-bottom: 10px;   
+    padding-bottom: 10px;  
+    font-size: 14px;
 }
 
 
@@ -276,14 +276,14 @@ figcaption p
     background-color: #F2F2F2;
     border-radius: 20px 20px 20px 20px;
     margin: 10px;
-    padding: 30px 30px 30px 30px;
-    width: 30%;
+    padding: 10px 15px 10px 15px;
+    width: 21%;
 }
 
 .card
 {
     border-radius: 20px 20px 20px 20px;
-    width: 30%;  
+    width: 31%;  
     margin: 0px;
     background-color: #FFFFFF;
     margin-bottom: 25px;
@@ -340,7 +340,7 @@ figcaption p
 }
 .card2 p:last-child
 {
-    padding-top: 35px;
+    padding-top: 45px;
 }
 
 #card-container3
@@ -355,7 +355,8 @@ figcaption p
 {
     margin: 0px;
     padding: 15px;
-    height: 20px; 
+    height: 20px;
+    font-size: 10px; 
 }
 
 
@@ -365,6 +366,8 @@ figcaption p
     border-radius: 20px 20px 20px 20px;
     box-shadow: 10px 10px 16px #E3E3E3;
     width: 21%;
+    margin: 0;
+
 }
 
 .column
@@ -373,13 +376,14 @@ figcaption p
     flex-direction: column;
     justify-content: center;
     width: 25%;
+    place-content: space-between
 }
 
 .card3 img
 {
     border-radius: 20px 20px 0px 0px;
     width:100%;
-    height: 375px;
+    height: 345px;
 
 }
 
@@ -387,7 +391,7 @@ figcaption p
 {
     border-radius: 20px 20px 0px 0px;
     width:100%;
-    height: 145px;
+    height: 130px;
 
    
 } 
@@ -395,6 +399,7 @@ figcaption p
 {
     border-radius: 20px 20px 20px 20px;
     box-shadow: 10px 10px 16px #E3E3E3;
+    margin: 0;
      
 } 
 
@@ -410,8 +415,8 @@ footer ul{
 }
 
 
-            /*RESPONSIVE SMARTPHONE */
-@media all and (max-device-width:480px)
+            /*RESPONSIVE  PETIT SMARTPHONE */
+@media all and (max-device-width:375px)
 {
 #bloc_page
 {
@@ -439,14 +444,14 @@ header ul
 {
     color: #0065FC;
     border-top: none;
-    padding: 0px 25px 15px 25px;
+    padding: 0px 35px 15px 35px;
     border-bottom: solid 2px #0065FC;
 }
 .item2
 {   
     
     color: black;
-    padding: 0px 48px 15px 48px;
+    padding: 0px 55px 15px 55px;
     border-bottom: solid 2px #E3E3E3;
 }
     
@@ -464,7 +469,7 @@ header ul
 
 #section1 h1
 {
-    width: 100%;
+    width: 95%;
     margin-top: 50px;
     margin-left: 10px
 }
@@ -725,66 +730,71 @@ footer ul
 }
 
 }
-/*RESPONSIVE TABLETTE */
-
-
-
-@media all and (min-device-width:481px) and (max-device-width:1024px)
+            /*RESPONSIVE  GRAND SMARTPHONE */
+@media all and (min-device-width:376px) and (max-device-width:767px)
 {
 #bloc_page
 {
     margin: 0;
     width: 100%;
-
+            
 }
-                /*HEADER */
+            /*HEADER */
 header
 {
     display: block;
     margin:0;    
 }
-  
+              
 header ul 
 {
     list-style-type: none;
-    justify-content: space-around;
     display: flex;
     width: 100%;
     padding: 0;
+    justify-content: normal;
 }
-
+            
 .item1
 {
-    color: #0065FC;
-    border-top: none;
-    padding: 15px 60px 15px 60px;
-    border-bottom: solid 2px #0065FC;
+color: #0065FC;
+border-top: none;
+padding: 0px 70px 15px 70px;
+border-bottom: solid 2px #0065FC;
 }
 .item2
 {   
-    
-    color: black;
-    padding: 9px 70px 15px 70px;
-    border-bottom: solid 2px #E3E3E3;
+                
+color: black;
+padding: 0px 80px 15px 80px;
+border-bottom: solid 2px #E3E3E3;
 }
-    
+                
 .item3
 {
-    font-weight: bold;
-    color: #0065FC;
-    padding: 30px 20px 0px 20px;
+font-weight: bold;
+color: #0065FC;
+padding: 0;
+position: relative;
+right: 75px;
+bottom: 50px;
 }
-
-            /*SECTION 1 */
-
+            
+                        /*SECTION 1 */
+            
 #section1 h1
 {
     width: 75%;
-    text-align: center;
+    margin-top: 50px;
+    margin-left: 10px
+}
+#section1 p
+{
+    margin-left: 10px;
 }
 form
 {
-   
+               
     display: flex;
     font-weight: bold;
     border-radius: 18px 18px 18px 18px;
@@ -792,7 +802,9 @@ form
     border-color: #F2F2F2;
     width: 90%;
     height: 50px;
-}
+    margin-top: 30px;
+    margin-left: 10px
+}            
 .fa-map-marker-alt
 {
     padding: 17px;
@@ -811,8 +823,8 @@ form
     padding-left: 30px;
     padding-right: 30px;
     font-size: medium; 
-    display: none;
-      
+    display: none;                
+                  
 }
 .bouton2 
 {
@@ -825,9 +837,9 @@ form
     padding-right: 15px;
     font-size: medium; 
     display: block;
-    width: 12%;
-        
-}
+    width: 18%;
+                    
+}            
 .barre
 {
     border-color: #F2F2F2;
@@ -838,31 +850,39 @@ form
     padding-left: 10px;
     padding-right: 10px;
 }
-
+            
 #filtres p:first-child
 {
     width: 100%;
 }
-
+            
 #filtres 
 {
     display: flex;
     font-weight: bold;
     margin-top: 27px;
     margin-bottom: 30px;
-    width: 85%;
+    width:100%;
     flex-wrap: wrap;
     justify-content: left;
-
+            
 }
-.filter
+
+#filtres .filter
 {
     display: flex;
     border: 2px #F2F2F2 solid;
     border-radius: 30px 30px 30px 30px;
-    padding-right: 17px;
-    margin: 5px;
+    padding-right: 40px;
+    margin: 10px;
 }
+#info
+{
+    display: flex;
+    width: 82%;
+    margin-left: 10px;
+}
+
 #info i 
 {
     color: #0066FC;
@@ -874,14 +894,28 @@ form
     height: 16px;
     text-align: center;
 }
-            /*SECTION 2 */
-#hebergement {
+#info p 
+{
+    margin-top: 5px;
+    padding-left: 8px;
+    width: 90%;
+    font-size: 15px;
+}
+            
+                        /*SECTION 2 */
+#hebergement 
+{
     background-color:transparent;
     border-radius: 20px 20px 20px 20px;
-    width: 90%;
+    width: 100%;
     padding: 0;
-    margin: 20px;
-    
+    margin: 10px 5px 10px 0px;
+}
+#hebergement h2
+{
+    margin-left: 10px;
+    width: 100%;
+    padding-left: 0px;
 }
 .card 
 {
@@ -889,32 +923,30 @@ form
     margin: 0px;
     background-color: #FFFFFF;
     margin-bottom: 25px;
-    box-shadow: 5px 5px 10px #e3e3e3;
+    box-shadow: 5px 5px 10px #E3E3E3;
     width: 100%;
 }
-
+            
 #section2
 {
     display: flex;
     flex-flow: column-reverse;
     padding: 0;
-  
+    width: 100%;
 }
 #card-container
 {
     border-radius: 20px 20px 20px 20px;
-    flex-direction: column;
+    flex-wrap: wrap;
     display: flex;
+    width: 95%;
+    margin: 10px
 }
-
-
-#info
+.plus
 {
-    display: flex;
-    width: 75%;
-  
-}
-
+    margin-left: 10px;
+}        
+                
 #populaires 
 {
     background-color: #F2F2F2;
@@ -925,16 +957,35 @@ form
 }
 .card2 
 {
-        display: flex;
-        border-radius: 20px 20px 20px 20px;
-        background-color: #FFFFFF;
-        box-shadow: 10px 10px 16px #e3e3e3;
-        margin: 10px 10px 30px;
-        padding: 5px;
-        
+    display: flex;
+    border-radius: 20px 20px 20px 20px;
+    background-color: #FFFFFF;
+    box-shadow: 10px 10px 16px #e3e3e3;
+    margin: 10px 10px 30px;
+    padding: 5px;
 }
-
-            /*SECTION 3 */
+.card2 p:last-child 
+{
+    padding-top: 35px;
+}
+figcaption 
+{
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+    padding: 10px;
+    height: 65px;
+}
+                        /*SECTION 3 */
+            
+#section3
+{
+    margin: 10px;
+} 
+#section3 h2 
+{
+    padding-left: 0px;
+}
 #section3 .card3 
 {
     border-radius: 20px 20px 20px 20px;
@@ -942,29 +993,26 @@ form
     width: 100%;
     height: 200px;
     margin: 0px 0px 20px 0px;
-    
 }  
-
-
+            
 #card-container3 
 {
-    
     flex-direction: column;
     display: flex;
-    width: 92%;
+    width: 100%;
     padding:0;
-    margin: 20px;
+    margin: 0;
 }
 #card-container3 img 
 {
-    
+                
     height: 140px;
 }
 .column
 {
     width:100%;
     margin: 0;
-
+            
 }
 .column figure 
 {
@@ -978,10 +1026,11 @@ form
 {
     height: 125px;
 }
-footer{
-width: auto;
+footer
+{
+    width: auto;
 }
-
+            
 footer ul 
 {
     display: flex;
@@ -990,3 +1039,818 @@ footer ul
     padding: 20px 0px 20px 20px;
 }
 }
+                
+            
+                /*RESPONSIVE TABLETTE */
+
+
+
+@media all and (min-device-width:768px) and (max-device-width:1023px)
+{
+body
+{
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+}
+#bloc_page
+{
+    margin: 10px;
+}
+    
+img
+{
+    width: 25%;
+    object-fit: cover;
+}
+    
+header
+{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: 25px 0px 0px 0px;
+        
+}
+    
+header img
+{
+    width: 100px;
+    padding-left: 10px;
+}
+nav
+{
+    width: 55%;
+}
+header ul
+{   
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;  
+}
+a:link 
+{
+    text-decoration: none;        
+}
+    
+#filtres a:visited
+{
+    text-decoration: none;
+    color: black;
+}
+    
+.item1
+{
+    color: #0065FC;
+    border-top: solid 2px;
+    padding: 30px 20px 0px 20px;
+         
+}
+.item2
+{
+    color: black;
+    padding: 30px 20px 0px 20px;
+}
+        
+.item3
+{
+    font-weight: bold;
+    color: #0065FC;
+    padding: 30px 20px 0px 20px;
+}
+    
+#section1
+{
+     
+    width: 100%;
+}
+    
+form
+{
+       
+    display: flex;
+    font-weight: bold;
+    border-radius: 18px 18px 18px 18px;
+    border: solid 2px;
+    border-color: #F2F2F2;
+    width: 55%;
+    height: 45px;
+        
+}
+.fa-map-marker-alt
+{
+    padding: 17px;
+    border-radius: 16px 0px 0px 16px;
+    background-color: #F2F2F2;   
+    text-align: center;  
+    width: 10%;
+}
+    
+.barre
+{
+    border-color: #F2F2F2;
+    border-style: none;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-weight: bold;
+    font-size: medium;
+    width: 55%;
+       
+}
+    
+.bouton1
+{
+    background-color: #0065FC;
+    border-radius: 0px 16px 16px 0px;
+    color: #FFFFFF;
+    border-color: #0065fc;
+    border-style: none;
+    font-size: medium; 
+    flex-wrap: inherit;
+    display: none;
+    display: block;
+    width: 35%;   
+}
+.bouton2 
+{
+    background-color: #0065FC;
+    border-radius: 16px 16px 16px 16px;
+    color: #FFFFFF;
+    border-color: #0065FC;
+    border-style: none;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: medium; 
+    display: block;
+    display: none;    
+}
+#filtres
+{
+    display: flex;
+       flex-wrap: wrap;
+    font-weight: bold;
+    margin-top: 27px;
+    margin-bottom: 30px;
+    width: 100%;
+    justify-content: space-around;
+    color: black;       
+        
+}
+    
+#filtres i
+{
+    background-color:#DEEBFF ;
+    color: #0065FC;
+    border-radius: 50px 50px 50px 50px;
+    padding: 17px;    
+    width:17px;
+    text-align: center;
+}
+#filtres div
+{
+    display: flex;
+    border: 2px #F2F2F2 solid;
+    border-radius: 30px 30px 30px 30px;
+    padding-right: 17px;
+    margin: 5px; 
+}
+#filtres p
+{
+    padding-left: 10px;    
+}
+.filter p:hover
+{
+    color: crimson;
+}
+    
+#info
+{
+    display: flex;
+    width: 100%;
+       
+}
+    
+#info i
+{
+    color:#0066FC;
+    border: solid thin;
+    border-radius: 50px 50px 50px 50px;
+    padding: 4px;
+    width: 20px;
+    border-color: #F2F2F2;
+    height: 20px;
+    text-align: center;
+}
+    
+#info p
+{
+    margin-top: 5px;
+    padding-left: 15px;
+}
+                /* TABLETTE SECTION 2*/
+    
+#section2
+{
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 50px;
+    width: 100%;
+      
+}
+h2
+{
+    padding-left: 10px;
+    padding-right: 15px;
+    text-align: center;
+    
+}
+
+#hebergement
+{
+    background-color: #F2F2F2;
+    border-radius: 20px 20px 20px 20px;
+    padding: 30px 20px 30px 30px;
+    margin: 10px;
+    width: 100%;
+    height: 100%;
+}
+    
+    #card-container
+    {
+        border-radius: 20px 20px 20px 20px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    figcaption
+    {
+        display: flex;
+        flex-direction:column;
+        margin: 0px;
+        padding: 15px;  
+        height: 65px; 
+    }
+    figcaption h3
+    {
+        padding: 0px;
+        margin: 0;
+        padding-bottom: 5px;   
+    }
+    figcaption p
+    {
+        padding: 0px;
+        margin: 0;
+        padding-bottom: 10px;   
+    }
+          
+    #populaires
+    {
+        background-color: #F2F2F2;
+        border-radius: 20px 20px 20px 20px;
+        margin: 10px;
+        padding: 30px 30px 30px 30px;
+        width: 100%;
+    }
+    
+    .card
+    {
+        border-radius: 20px 20px 20px 20px;
+        width: 70%;  
+        margin: 0px;
+        background-color: #FFFFFF;
+        margin-bottom: 25px;
+        box-shadow: 5px 5px 10px #E3E3E3;
+        padding:5px
+    }
+    #hebergement img{
+        width: 100%;
+        height: 175px;
+        border-radius: 20px 20px 0px 0px;
+        padding: 0px;
+        object-fit: cover;
+    
+    }
+    .plus{
+        font-weight: bold;
+    }
+    
+    
+    .fa-star{
+        color: #0065FC;
+    }
+    .gris
+    {
+        color:#F2F2F2;
+    }
+    #card-container2
+    {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+    }  
+    
+    #populaires img{
+        width: 38%;
+        border-radius: 20px 0px 0px 20px;
+        object-fit: cover;
+        height:150px
+    }
+    
+    #populaires h2{
+        display:flex;
+        justify-content: space-between;
+    }
+    .card2
+    {
+        display: flex;
+        border-radius: 20px 20px 20px 20px;
+        background-color: #FFFFFF;
+        box-shadow: 10px 10px 16px #e3e3e3;
+        padding: 5px;
+        width: 100%;
+        margin: 0px 0px 30px 0px;
+    }
+    .card2 p:last-child
+    {
+        padding-top: 35px;
+    }
+    
+    #card-container3
+    {
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 85px;
+        width:100%;
+        justify-content: space-between;
+    }
+    
+    #card-container3 figcaption
+    {
+        margin: 0px;
+        padding: 15px;
+        height: 20px; 
+    }
+    
+    
+    #section3 .card3
+    {
+    
+        border-radius: 20px 20px 20px 20px;
+        box-shadow: 10px 10px 16px #E3E3E3;
+        width: 100%;
+        margin-top: 20px;
+        
+    }
+    
+    .column
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+    }
+    
+    .card3 img
+    {
+        border-radius: 20px 20px 0px 0px;
+        width:100%;
+        height: 170px;
+    
+    }
+    
+    .column img
+    {
+        border-radius: 20px 20px 0px 0px;
+        width:100%;
+        height: 145px;
+    
+       
+    } 
+    .column figure
+    {
+        border-radius: 20px 20px 20px 20px;
+        box-shadow: 10px 10px 16px #E3E3E3;
+        width:100%; 
+        margin-top:20px;
+
+    } 
+    
+    
+    footer{
+        background-color: #F2F2F2;
+    }
+    footer ul{
+        display: flex;
+        justify-content: space-between;
+        list-style-type: none;
+        width: 90%;
+    }
+    
+}
+                /*DESKTOP  GRANDE TABLETTE*/
+@media all and (min-device-width:1024px) and (max-device-width:1439px)
+{
+    body
+    {
+        width: 100%;
+        padding: 0px;
+        margin: 0px;
+    }
+    #bloc_page
+    {
+        margin: 10px;
+    }
+    
+    img
+    {
+        width: 25%;
+        object-fit: cover;
+    }
+    
+    header
+    {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        margin: 25px 0px 0px 0px;
+        
+    }
+    
+    header img
+    {
+        width: 100px;
+        padding-left: 10px;
+    }
+    nav
+    {
+        width: 55%;
+    }
+    header ul
+    {   
+        list-style-type: none;
+        display: flex;
+        justify-content: space-around;  
+    }
+    a:link 
+    {
+        text-decoration: none;        
+    }
+    
+    #filtres a:visited
+    {
+        text-decoration: none;
+        color: black;
+    }
+    
+    .item1
+    {
+        color: #0065FC;
+        border-top: solid 2px;
+        padding: 30px 20px 0px 20px;
+         
+    }
+    .item2
+    {
+        color: black;
+        padding: 30px 20px 0px 20px;
+    }
+        
+    .item3
+    {
+        font-weight: bold;
+        color: #0065FC;
+        padding: 30px 20px 0px 20px;
+    }
+    
+    #section1{
+     
+        width: 100%;
+    }
+    
+    form
+    {
+       
+        display: flex;
+        font-weight: bold;
+        border-radius: 18px 18px 18px 18px;
+        border: solid 2px;
+        border-color: #F2F2F2;
+        width: 55%;
+        height: 45px;
+        
+    }
+    .fa-map-marker-alt
+    {
+        padding: 17px;
+        border-radius: 16px 0px 0px 16px;
+        background-color: #F2F2F2;   
+        text-align: center;  
+        width: 10%;
+    }
+    
+.barre
+{
+    border-color: #F2F2F2;
+    border-style: none;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-weight: bold;
+    font-size: medium;
+    width: 55%;
+       
+}
+    
+.bouton1
+{
+    background-color: #0065FC;
+    border-radius: 0px 16px 16px 0px;
+    color: #FFFFFF;
+    border-color: #0065fc;
+    border-style: none;
+    font-size: medium; 
+    flex-wrap: inherit;
+    display: none;
+    display: block;
+    width: 35%;   
+}
+.bouton2 
+{
+    background-color: #0065FC;
+    border-radius: 16px 16px 16px 16px;
+    color: #FFFFFF;
+    border-color: #0065FC;
+    border-style: none;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: medium; 
+    display: block;
+    display: none;    
+    }
+#filtres
+{
+    display: flex;
+    flex-wrap: wrap;
+    font-weight: bold;
+    margin-top: 27px;
+    margin-bottom: 30px;
+    width: 82%;
+    justify-content: space-around;
+    color: black;
+        
+        
+}
+    
+#filtres i
+{
+    background-color:#DEEBFF ;
+    color: #0065FC;
+    border-radius: 50px 50px 50px 50px;
+    padding: 17px;    
+    width:17px;
+    text-align: center;
+}
+#filtres div
+{
+    display: flex;
+    border: 2px #F2F2F2 solid;
+    border-radius: 30px 30px 30px 30px;
+    padding-right: 17px;
+    margin: 5px; 
+}
+#filtres p
+{
+    padding-left: 10px;
+        
+}
+.filter p:hover
+{
+    color: crimson;
+}
+    
+    
+#info
+{
+    display: flex;
+    width: 100%;
+       
+}
+    
+#info i
+{
+    color:#0066FC;
+    border: solid thin;
+    border-radius: 50px 50px 50px 50px;
+    padding: 4px;
+    width: 20px;
+    border-color: #F2F2F2;
+    height: 20px;
+    text-align: center;
+}
+    
+#info p
+{
+     margin-top: 5px;
+    padding-left: 15px;
+}
+            /* DESKTOP SECTION 2*/
+
+#section2
+{
+    display: flex;
+    padding-bottom: 50px;
+    width: 100%;
+              
+}
+h2
+{
+    padding-left: 10px;
+    padding-right: 15px;
+            
+}
+#hebergement
+{
+    background-color: #F2F2F2;
+    border-radius: 20px 20px 20px 20px;
+    padding: 10px 10px 20px 20px;
+    margin: 10px;
+    width: 79%;
+}
+#card-container
+{
+    border-radius: 20px 20px 20px 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+figcaption
+{
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+    padding: 4px;  
+    height: 65px; 
+    font-size: 13px;
+}
+figcaption h3
+{
+    padding: 0px;
+    margin: 0;
+    padding-bottom: 5px;
+    padding-right: 10px;   
+}
+figcaption p
+{
+    padding: 0px;
+    margin: 0;
+    padding-bottom: 10px;  
+    font-size: 14px;
+}
+            
+#populaires
+{
+    background-color: #F2F2F2;
+    border-radius: 20px 20px 20px 20px;
+    margin: 10px;
+    padding: 10px 15px 10px 15px;
+    width: 35%;
+}
+            
+.card
+{
+    border-radius: 20px 20px 20px 20px;
+    width: 31%;  
+    margin: 0px;
+    background-color: #FFFFFF;
+    margin-bottom: 25px;
+    box-shadow: 5px 5px 10px #E3E3E3;
+    padding:5px
+}
+#hebergement img
+{
+    width: 100%;
+    height: 140px;
+    border-radius: 20px 20px 0px 0px;
+    padding: 0px;
+    object-fit: cover;
+}
+.plus
+{
+    font-weight: bold;
+}
+            
+.fa-star
+{
+color: #0065FC;
+}
+.gris
+{
+    color:#F2F2F2;
+}
+#card-container2
+{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}  
+            
+#populaires img
+{
+    width: 38%;
+    border-radius: 20px 0px 0px 20px;
+    object-fit: cover;
+    height:150px
+}
+            
+#populaires h2
+{
+    display:flex;
+    justify-content: space-between;
+}
+.card2
+{
+    display: flex;
+    border-radius: 20px 20px 20px 20px;
+    background-color: #FFFFFF;
+    box-shadow: 10px 10px 16px #e3e3e3;
+    padding: 5px;
+    width: 100%;
+    margin: 0px 0px 30px 0px;
+}
+.card2 p:last-child
+{
+    padding-top: 45px;
+}
+            
+#card-container3
+{
+    display: flex;
+    padding-bottom: 85px;
+    width:100%;
+    justify-content: space-between;
+}
+            
+#card-container3 figcaption
+{
+    margin: 0px;
+    padding: 15px;
+    height: 20px;
+    font-size: 10px; 
+}
+            
+            
+#section3 .card3
+{
+            
+    border-radius: 20px 20px 20px 20px;
+    box-shadow: 10px 10px 16px #E3E3E3;
+    width: 21%;
+    margin: 0;
+            
+}
+            
+.column
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 25%;
+    place-content: space-between
+}
+            
+.card3 img
+{
+    border-radius: 20px 20px 0px 0px;
+    width:100%;
+    height: 345px;
+            
+}
+            
+.column img
+{
+    border-radius: 20px 20px 0px 0px;
+    width:100%;
+    height: 130px;
+            
+               
+} 
+.column figure
+{
+    border-radius: 20px 20px 20px 20px;
+    box-shadow: 10px 10px 16px #E3E3E3;
+    margin: 0;
+                 
+} 
+            
+            
+footer
+{
+    background-color: #F2F2F2;
+}
+footer ul
+{
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    width: 75%;
+}
+            
