@@ -416,7 +416,7 @@ footer ul{
 
 
             /*RESPONSIVE  PETIT SMARTPHONE */
-@media all and (max-device-width:375px)
+@media all and (max-width:375px)
 {
 #bloc_page
 {
@@ -731,7 +731,7 @@ footer ul
 
 }
             /*RESPONSIVE  GRAND SMARTPHONE */
-@media all and (min-device-width:376px) and (max-device-width:767px)
+@media all and (min-width:376px) and (max-width:767px)
 {
 #bloc_page
 {
@@ -1045,7 +1045,7 @@ footer ul
 
 
 
-@media all and (min-device-width:768px) and (max-device-width:1023px)
+@media all and (min-width:768px) and (max-width:1023px)
 {
 body
 {
@@ -1448,7 +1448,7 @@ h2
     
 }
                 /*DESKTOP  GRANDE TABLETTE*/
-@media all and (min-device-width:1024px) and (max-device-width:1439px)
+@media all and (min-width:1024px) and (max-width:1439px)
 {
     body
     {
@@ -1562,10 +1562,9 @@ h2
     
 .bouton1
 {
-    background-color: #0065FC;
+    background-color: #0065fc;;
     border-radius: 0px 16px 16px 0px;
     color: #FFFFFF;
-    border-color: #0065fc;
     border-style: none;
     font-size: medium; 
     flex-wrap: inherit;
@@ -1578,7 +1577,6 @@ h2
     background-color: #0065FC;
     border-radius: 16px 16px 16px 16px;
     color: #FFFFFF;
-    border-color: #0065FC;
     border-style: none;
     padding-left: 15px;
     padding-right: 15px;
