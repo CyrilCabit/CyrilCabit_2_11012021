@@ -463,7 +463,7 @@ header li
 {
     color: #0065FC;
     border-top: none;
-    padding: 0px 25px 10px 30px;
+    padding: 0px 30px 10px 35px;
     border-bottom: #0065FC solid;
    
  
@@ -472,7 +472,7 @@ header li
 {   
     
     color: black;
-    padding: 0px 50px 15px 75px;
+    padding: 0px 20px 10px 95px;
    
    
 }
@@ -796,7 +796,7 @@ header li
 {
     color: #0065FC;
     border-top: none;
-    padding: 0px 25px 10px 30px;
+    padding: 0px 50px 10px 60px;
     border-bottom: #0065FC solid;
                
              
@@ -804,8 +804,8 @@ header li
 .item2
 {   
                 
-                color: black;
-                padding: 0px 50px 15px 75px;
+    color: black;
+    padding: 0px 54px 15px 115px;
                
                
 }
