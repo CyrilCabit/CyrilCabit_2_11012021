@@ -47,13 +47,20 @@ header img
 }
 nav
 {
-    width: 40%;
+    width: 30%;
 }
 header ul
 {   
     list-style-type: none;
     display: flex;
-    justify-content: space-around;  
+    justify-content: space-around;
+    width: 100%; 
+    padding: 0;
+ 
+}
+header li
+{
+    width: auto;
 }
 a:link 
 {
@@ -70,20 +77,20 @@ a:link
 {
     color: #0065FC;
     border-top: solid 2px;
-    padding: 30px 20px 0px 20px;
+    padding: 15px 20px 0px 20px;
      
 }
 .item2
 {
     color: black;
-    padding: 30px 20px 0px 20px;
+    padding: 15px 20px 0px 20px;
 }
     
 .item3
 {
     font-weight: bold;
     color: #0065FC;
-    padding: 30px 20px 0px 20px;
+    padding: 15px 20px 0px 20px;
 }
 
 #section1{
@@ -252,7 +259,7 @@ figcaption
     margin: 0px;
     padding: 4px;  
     height: 65px; 
-    font-size: 17px;
+    font-size: 14px;
 }
 figcaption h3
 {
@@ -356,7 +363,7 @@ figcaption p
     margin: 0px;
     padding: 15px;
     height: 20px;
-    font-size: 17px; 
+    font-size: 16px; 
 }
 
 
@@ -430,6 +437,10 @@ header
     display: block;
     margin:0;    
 }
+nav 
+{
+    width: 100%;
+}
   
 header ul 
 {
@@ -437,22 +448,33 @@ header ul
     display: flex;
     width: 100%;
     padding: 0;
-    justify-content: normal;
+    border-bottom: #E3E3E3 solid;    
 }
+
+header li 
+{
+    width: 40%;
+    margin: 0px;
+    padding-bottom: 10px;
+}
+
 
 .item1
 {
     color: #0065FC;
     border-top: none;
-    padding: 0px 35px 15px 35px;
-    border-bottom: solid 2px #0065FC;
+    padding: 0px 25px 10px 30px;
+    border-bottom: #0065FC solid;
+   
+ 
 }
 .item2
 {   
     
     color: black;
-    padding: 0px 55px 15px 55px;
-    border-bottom: solid 2px #E3E3E3;
+    padding: 0px 50px 15px 75px;
+   
+   
 }
     
 .item3
@@ -461,7 +483,7 @@ header ul
     color: #0065FC;
     padding: 0;
     position: relative;
-    right: 75px;
+    right: 25px;
     bottom: 50px;
 }
 
@@ -472,6 +494,10 @@ header ul
     width: 95%;
     margin-top: 50px;
     margin-left: 10px
+}
+.precisions 
+{
+padding-left: 10px;
 }
 form
 {
@@ -736,14 +762,17 @@ footer ul
 #bloc_page
 {
     margin: 0;
-    width: 100%;
-            
+    width: 100%;           
 }
             /*HEADER */
 header
 {
     display: block;
     margin:0;    
+}
+nav 
+{
+    width: 100%;
 }
               
 header ul 
@@ -752,32 +781,43 @@ header ul
     display: flex;
     width: 100%;
     padding: 0;
-    justify-content: normal;
+    border-bottom: #E3E3E3 solid;    
 }
+            
+header li 
+{
+    width: 40%;
+    margin: 0px;
+    padding-bottom: 10px;
+}
+            
             
 .item1
 {
-color: #0065FC;
-border-top: none;
-padding: 0px 70px 15px 70px;
-border-bottom: solid 2px #0065FC;
+    color: #0065FC;
+    border-top: none;
+    padding: 0px 25px 10px 30px;
+    border-bottom: #0065FC solid;
+               
+             
 }
 .item2
 {   
                 
-color: black;
-padding: 0px 80px 15px 80px;
-border-bottom: solid 2px #E3E3E3;
+                color: black;
+                padding: 0px 50px 15px 75px;
+               
+               
 }
                 
 .item3
 {
-font-weight: bold;
-color: #0065FC;
-padding: 0;
-position: relative;
-right: 75px;
-bottom: 50px;
+    font-weight: bold;
+    color: #0065FC;
+    padding: 0;
+    position: relative;
+    right: 25px;
+    bottom: 50px;
 }
             
                         /*SECTION 1 */
